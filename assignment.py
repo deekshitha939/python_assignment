@@ -16,6 +16,29 @@ unique_numbers = {1, 2, 3, 4} # Set
 person_info = {"name": "Deekshitha", "age": 21}  # Dictionary
 empty_value = None       # NoneType
 
+#Indentation in Python
+# Indentation refers to spaces or tabs used at the beginning of code lines to define code blocks.
+# Python strictly enforces indentation, and improper indentation results in an error.
+
+# Correct Indentation Example:
+if True:
+    print("This is properly indented.")
+    if True:
+        print("Nested indentation is also required.")
+
+# Incorrect Indentation Example (This will cause an error)
+# if True:
+# print("This will cause an indentation error.")
+
+# Indentation in Loops and Functions
+for i in range(3):
+    print("Iteration:", i)  # Correctly indented
+
+# Function indentation example
+def sample_function():
+    print("Inside function")  # Properly indented
+sample_function()
+
 # 2. Operators in Python
 # Operators are used to perform operations on variables and values.
 
