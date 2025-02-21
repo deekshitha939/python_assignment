@@ -207,3 +207,121 @@ def multiply(num1, num2):
 
 result = multiply(4, 5)
 print(result)  # Output: 20
+
+
+
+# String Methods
+text = "Hello Python"
+print(text.lower())    # Converts to lowercase
+print(text.upper())    # Converts to uppercase
+print(text.title())    # Converts to title case
+print(text.strip())    # Removes leading/trailing whitespace
+print(text.replace("Python", "World"))  # Replaces substring
+print(text.split())    # Splits string into a list
+print(text.find("Python"))  # Finds substring index
+print(text.count("l"))  # Counts occurrences of a character
+print(text.startswith("Hello"))  # Checks if string starts with substring
+print(text.endswith("Python"))  # Checks if string ends with substring
+
+# List Methods
+fruits = ["apple", "banana", "cherry"]
+fruits.append("mango")  # Adds an item
+fruits.insert(1, "orange")  # Inserts at index
+fruits.remove("banana")  # Removes an item
+print(fruits.pop())  # Removes and returns last item
+print(fruits.index("apple"))  # Finds index of item
+print(fruits.count("apple"))  # Counts occurrences of item
+fruits.reverse()  # Reverses list order
+fruits.sort()  # Sorts list
+
+# Tuple Methods
+numbers = (1, 2, 3, 4, 5, 2)
+print(numbers.count(2))  # Counts occurrences of value
+print(numbers.index(3))  # Finds index of value
+
+# Set Methods
+s = {1, 2, 3}
+s.add(4)  # Adds an element
+s.update([5, 6, 7])  # Adds multiple elements
+s.remove(3)  # Removes an element (raises error if not found)
+s.discard(2)  # Removes an element (no error if not found)
+print(s.union({7, 8}))  # Combines sets
+print(s.intersection({4, 5, 6}))  # Finds common elements
+print(s.difference({5, 6}))  # Finds unique elements
+
+# Dictionary Methods
+person = {"name": "Deekshitha", "age": 21, "city": "Hyderabad"}
+print(person.keys())  # Returns all keys
+print(person.values())  # Returns all values
+print(person.items())  # Returns all key-value pairs
+print(person.get("age"))  # Gets value for key
+person.update({"country": "India"})  # Updates dictionary
+person.pop("city")  # Removes key-value pair
+
+# Built-in Functions
+print(len(fruits))  # Gets length of list
+print(max(numbers))  # Gets max value in tuple
+print(min(numbers))  # Gets min value in tuple
+print(sum(numbers))  # Sums all values in tuple
+print(sorted(numbers))  # Returns sorted list of tuple
+print(type(person))  # Gets type of variable
+print(isinstance(21, int))  # Checks if variable is of given type
+
+# String Methods
+text = "Hello Python"
+print(text.lower())    # Converts to lowercase
+print(text.upper())    # Converts to uppercase
+print(text.title())    # Converts to title case
+print(text.strip())    # Removes leading/trailing whitespace
+print(text.replace("Python", "World"))  # Replaces substring
+print(text.split())    # Splits string into a list
+print(text.find("Python"))  # Finds substring index
+print(text.count("l"))  # Counts occurrences of a character
+print(text.startswith("Hello"))  # Checks if string starts with substring
+print(text.endswith("Python"))  # Checks if string ends with substring
+
+# List Methods
+fruits = ["apple", "banana", "cherry"]
+fruits.append("mango")  # Adds an item
+fruits.insert(1, "orange")  # Inserts at index
+fruits.remove("banana")  # Removes an item
+print(fruits.pop())  # Removes and returns last item
+print(fruits.index("apple"))  # Finds index of item
+print(fruits.count("apple"))  # Counts occurrences of item
+fruits.reverse()  # Reverses list order
+fruits.sort()  # Sorts list
+
+# Tuple Methods
+numbers = (1, 2, 3, 4, 5, 2)
+print(numbers.count(2))  # Counts occurrences of value
+print(numbers.index(3))  # Finds index of value
+
+# Set Methods
+s = {1, 2, 3}
+s.add(4)  # Adds an element
+s.update([5, 6, 7])  # Adds multiple elements
+s.remove(3)  # Removes an element (raises error if not found)
+s.discard(2)  # Removes an element (no error if not found)
+print(s.union({7, 8}))  # Combines sets
+print(s.intersection({4, 5, 6}))  # Finds common elements
+print(s.difference({5, 6}))  # Finds unique elements
+
+# Dictionary Methods
+person = {"name": "Deekshitha", "age": 21, "city": "Hyderabad"}
+print(person.keys())  # Returns all keys
+print(person.values())  # Returns all values
+print(person.items())  # Returns all key-value pairs
+print(person.get("age"))  # Gets value for key
+person.update({"country": "India"})  # Updates dictionary
+person.pop("city")  # Removes key-value pair
+
+# Built-in Functions
+print(len(fruits))  # Gets length of list
+print(max(numbers))  # Gets max value in tuple
+print(min(numbers))  # Gets min value in tuple
+print(sum(numbers))  # Sums all values in tuple
+print(sorted(numbers))  # Returns sorted list of tuple
+print(type(person))  # Gets type of variable
+print(isinstance(21, int))  # Checks if variable is of given type
+
+
